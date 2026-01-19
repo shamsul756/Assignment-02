@@ -458,38 +458,39 @@ li p{
     margin-top: 1px;  
     font-size: 16px;
 }   
-.banner-section{
-   width: 100%;
-   margin: 0;
-   padding: 10px 0px;
+/* start banner section  */
+.banner-section{   
+   padding: 50px 20px;
+}
+.banner-container{
+    text-align: center;
 }
 .banner-title {
-    margin: 20px;
-    font-size: 40px;   
+    display: block;
+    font-size: 50px; 
 }
 .banner-container p{
-    color: #fff;
-    margin-top: 10px;
-    font-size: 10px;
-    line-height: 18px;
+    font-size: 13px;
+    line-height: 20px;
     
 }
 .flex-section ul{
-    
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    
+    gap: 50px;   
 }
 li{
-   font-size: 40px;
+   font-size: 50px;
+   flex-wrap: wrap;
+  margin: 0 auto;
 }
 li p{
-    font-size: 14px;   
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+
+    margin-bottom: 80px;
 }
 
-
-
+/* end banner section */
 
 }
 
@@ -541,35 +542,36 @@ li p{
     margin-top: 12px;
  /* } end hero design */
 }
-start banner section
-
 .banner-section{
-   width: 100%;
-   margin: 0;
-   padding: 10px 0px;
+   max-width: 100%;
+   margin: -20px auto;
+   gap: 50px;
 }
+
 .banner-title {
-    margin: 20px;
-    font-size: 50px;   
+    font-size: 64px;   
 }
 .banner-container p{
-    color: #fff;
-    margin-top: 10px;
-    font-size: 10px;
-    line-height: 18px;
-    
+    margin-top: 18px;
+    font-size: 18px;   
 }
 .flex-section ul{
-    
-    flex-wrap: wrap;
-    justify-content: center;
+    gap: 80px;
     align-items: center;
+    justify-content: center;
     
 }
 li{
-   font-size: 50px;
+   font-size: 60px;
 }
 li p{
-    font-size: 18px;   
+    margin-top: 18px;
+    font-size: 18px;
+    margin-bottom: 40px;
 }
+/* end banner-section */
+
+
+
+
 }
