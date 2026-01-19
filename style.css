@@ -12,7 +12,7 @@ body{
     overflowx: hidden;
 }
 .background{
-    background: rgba(65, 37, 103, 1);
+    background: #1a0a2b;
 }
 .header-container{
     display: flex;
@@ -175,9 +175,51 @@ h1{
 }
 /* end hero section design */
 
+/* start banner section */
 
-
-
+.banner-section{
+   max-width: 1200px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   gap: 180px;
+   padding: 50px 200px;
+}
+.banner-container{
+    text-align: center;
+}
+.banner-container h1{
+    margin-top: 50px;
+}
+.banner-container p{
+    color: #fff;
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 25px;
+    
+}
+.flex-section ul{
+    display: flex;
+    color:#00FF88;
+    padding: 0;
+    margin: 0;
+    gap: 80px;
+    
+}
+li{
+   list-style: none;
+   font-weight: bold;
+   font-size: 50px;
+}
+li p{
+    font-weight: normal;
+    margin-top: 16px;
+    color: black;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 120px;
+}
+/* end banner-section */
 
 
 
@@ -326,10 +368,6 @@ h1{
     margin-top: 1px;  
     font-size: 16px;
 }   
-
-
-
-
 }
 
 
@@ -341,7 +379,44 @@ h1{
     .arrow-move{
    
       margin-right: 30px;
-      padding: 5px 6px;
+      padding: 5px 6px;}
       /* complete nav desing */
+      /* start hero section design  */
+.hero-circle{
+    width: 80%; 
 }
+.mic-icon {
+    width: 130px;
+    top:-10px;
+    left:170px;
+    transform: translate(-50%, -40%);
+}
+.new{
+    top: -150px;
+    left: 190px;  
+}
+.down-side{
+    margin-top: -142px;
+}
+.down-side h2{
+    font-size: 50px;
+    margin-top: -15%;
+}
+.down-side p{
+    font-size: 16px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    
+}
+.btn-group{
+    margin-top: -5px;
+}
+.spotify-button{
+    margin-top: 8px;
+}
+.Subscribe-button{
+    margin-top: 12px;
+ /* } end hero design */
+}
+
 }
