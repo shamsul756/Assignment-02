@@ -23,10 +23,15 @@ body{
 }
 /* 
 start design nav-part */
-h1{
+.brand-menu{
     color: #fff;
     font-size: 50px;
     font-weight: bolder;
+    
+}
+.brand{
+    color: #fff;
+    margin: 10px;
 }
 .linear-color {
     background: linear-gradient(90deg,yellow, red, blue );
@@ -39,7 +44,7 @@ h1{
     display: flex;
     gap: 32px;
 }
-.header-container li{
+.header-container p{
     list-style: none;
     color: #fff;
     
@@ -188,8 +193,13 @@ h1{
 .banner-container{
     text-align: center;
 }
-.banner-container h1{
-    margin-top: 50px;
+.banner-title {
+    display: block;
+    margin: 50px;
+    color: #fff;
+    font-size: 54px;
+    font-weight: bold;
+    
 }
 .banner-container p{
     color: #fff;
@@ -249,6 +259,55 @@ li p{
 .arrow-move{
     display: none;
 }
+.banner-section{
+   max-width: 1200px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   gap: 180px;
+   padding: 50px 200px;
+}
+.banner-container{
+    text-align: center;
+}
+.banner-title {
+    display: block;
+    margin: 50px;
+    color: #fff;
+    font-size: 54px;
+    font-weight: bold;
+    
+}
+.banner-container p{
+    color: #fff;
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 25px;
+    
+}
+.flex-section ul{
+    display: flex;
+    color:#00FF88;
+    padding: 0;
+    margin: 0;
+    gap: 80px;
+    
+}
+li{
+   list-style: none;
+   font-weight: bold;
+   font-size: 50px;
+}
+li p{
+    font-weight: normal;
+    margin-top: 16px;
+    color: black;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 120px;
+}
+
+
 /* complete nav desing */
 /* start hero design  */
 .upper-side{ 
@@ -272,11 +331,11 @@ li p{
     left: 80px;  
 }
 .down-side{
-    margin-top: -122px;
+    margin-top: -110px;
 }
 .down-side h2{
-    font-size: 30px;
-    margin-top: 15px;
+    font-size: 20px;
+    margin-top: 10px;
 }
 .down-side p{
     font-size: 10px;
@@ -285,7 +344,7 @@ li p{
 
 .btn-group{
     display: flex;
-    margin-top: -5px; 
+    margin-top: -10px; 
 }
 .sound{
     vertical-align:middle;
@@ -308,8 +367,39 @@ li p{
     font-size: 13px;
  /* } end hero design */
 }
+/* banner section start  */
 
 
+.banner-section{
+   width: 100%;
+   margin: 0;
+   padding: 10px 0px;
+}
+.banner-title {
+    margin: 20px;
+    font-size: 40px;   
+}
+.banner-container p{
+    color: #fff;
+    margin-top: 10px;
+    font-size: 10px;
+    line-height: 18px;
+    
+}
+.flex-section ul{
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+li{
+   font-size: 40px;
+}
+li p{
+    font-size: 14px;   
+}
+/* end banner-part */
 
 
 
@@ -368,6 +458,39 @@ li p{
     margin-top: 1px;  
     font-size: 16px;
 }   
+.banner-section{
+   width: 100%;
+   margin: 0;
+   padding: 10px 0px;
+}
+.banner-title {
+    margin: 20px;
+    font-size: 40px;   
+}
+.banner-container p{
+    color: #fff;
+    margin-top: 10px;
+    font-size: 10px;
+    line-height: 18px;
+    
+}
+.flex-section ul{
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+li{
+   font-size: 40px;
+}
+li p{
+    font-size: 14px;   
+}
+
+
+
+
 }
 
 
@@ -418,5 +541,35 @@ li p{
     margin-top: 12px;
  /* } end hero design */
 }
+start banner section
 
+.banner-section{
+   width: 100%;
+   margin: 0;
+   padding: 10px 0px;
+}
+.banner-title {
+    margin: 20px;
+    font-size: 50px;   
+}
+.banner-container p{
+    color: #fff;
+    margin-top: 10px;
+    font-size: 10px;
+    line-height: 18px;
+    
+}
+.flex-section ul{
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+li{
+   font-size: 50px;
+}
+li p{
+    font-size: 18px;   
+}
 }
