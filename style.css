@@ -571,6 +571,74 @@ li p{
 }
 /* end banner-section */
 
+.grid-section-background{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    text-align: center;
+
+}
+.grid-section-background h1{
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+    
+
+}
+.grid-container .grid-audio{
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid-container{
+    background-color: #351165;
+    border: 1px solid #351161;
+    padding: 35px;
+    text-align: left;
+}
+.grid-container img{
+    width: 25px;
+    margin-bottom: 20px;
+}
+.grid-container h4{
+    color: #fff;
+    font-size: 24;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.grid-container p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 24px;
+}
+.grid-audio{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+.grid-mobile{
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+.grid-community{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.grid-interview{
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+.grid-resource{
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+
+
+
 
 
 
