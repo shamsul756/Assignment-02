@@ -1,31 +1,51 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
+/* shared-class */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
     font-family: "Inter";
 }
-/* 
-start design header-part */
+body{
+    margin: 0;
+    padding: 0;
+    overflowx: hidden;
+}
+.background{
+    background: rgba(65, 37, 103, 1);
+}
 .header-container{
- border: 1px solid rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    align-items: center;
+    margin: 0 auto; 
 }
-.brand{
-    border: 1px solid red;
+/* 
+start design nav-part */
+h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: bolder;
 }
-.linear-color 
-{
+.linear-color {
     background: linear-gradient(90deg,yellow, red, blue );
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    font-weight: bold;
-   
+    font-weight: bold;  
 } 
+.menu ul{
+    display: flex;
+    gap: 32px;
+}
+.header-container li{
+    list-style: none;
+    color: #fff;
+    
+}
 .arrow-move{
-      background: linear-gradient(90deg,yellow, red, blue );
+      background: linear-gradient(90deg,yellow, red, blue);
       border-radius: 20px;
       padding: 5px 7px;
       color: #fff;
@@ -34,6 +54,7 @@ start design header-part */
 .arrow-move {
     animation: arrow-move 1.5s infinite ease-in-out;
 }
+
 
 @keyframes arrow-move {
     0%{
@@ -56,33 +77,167 @@ start design header-part */
     }
     
 }
-.menu{
-    border: 1px solid yellow;
-   
+.hide{
+    display: none;
 }
-.menu ul{
+/* end design nav-part  */
+/* start hero section design */
+.upper-side{
+    position: relative;
+    width: 100%;
     display: flex;
-    gap: 32px;
+    justify-content: center;
+    align-items: center;
 }
-.btn{
-    border: 1px solid brown;
+.first-bg{
+    width:100%;
+    display: block;
 }
-.background{
-    background: rgba(65, 37, 103, 1);
+.combine{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero-circle{
+    width: 250px;
+    height: auto;
+    margin-top: -130px;
+  
+}
+.mic-icon {
+    position: absolute;
+    width: 120px;
+    top: -10%;
+    left: 54%;
+    transform: translate(-59%, -50%);
+}
+.new{
+    position: absolute;
+    top: -150px;
+    left: 140px;
+    background: rgb(74, 166, 74);
+    color: #fff;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    z-index: 10;
+}
+.down-side{
+    margin-top: -250px;
+    position: relative;
+    z-index: 5;
+    color: #fff;
+}
+.down-side h2{
+    font-size: 50px;
+    margin: 25px;
+    text-align: center;
+}
+.down-side p{
+    
+    text-align: center;
 }
 
-.header-container{
+.btn-group{
     display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 20px;
+}
+
+.spotify-button{
+    background: linear-gradient(90deg,yellow, red, blue );
+    padding: 15px;
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 15px;
+    border: none;
+    font-size: 20px;
+}
+.sound{
+    justify-content:center ;
     align-items: center;
-    margin: 0 auto; 
 }
-.header-container li{
-    list-style: none;
+.Subscribe-button{
+    border: 1px solid green;
+    background: transparent;
+    padding: 15px;
+    border-radius: 20px;
     color: #fff;
+    margin-top: 15px;
     
+    font-size: 20px;
 }
-h1{
-    color: #fff;
+/* end hero section design */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px){
+    /* nav design part  */
+    .hide{
+        display: inline;
+        margin: 15px 20px;
+    }
+       h1{
+        margin-left: 10px;
+    }
+    .menu ul{
+    display: flex;
+    gap: 32px;
+    display: none;
+}
+.arrow-move{
+    display: none;
+}
+/* complete nav desing */
+}
+
+
+
+
+
+@media screen and (min-width:576px) and (max-width:992px){
+    /* nav desing  */
+    h1{
+        margin-left: 35px;
+    }
+    .arrow-move{
+      background: linear-gradient(90deg,rgb(241, 4, 229), rgb(234, 255, 0), rgb(10, 246, 2));
+      padding: 4px 9px;
+      margin-right: 30px;
+      /* complete nav desing  */
+}
+}
+
+
+
+@media screen and (min-width:992px) and (max-width:1600px){
+        h1{
+        margin-left: 20px;
+    }  
+    .arrow-move{
+   
+      margin-right: 30px;
+      padding: 5px 6px;
+      /* complete nav desing */
+}
 }
