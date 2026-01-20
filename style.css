@@ -398,4 +398,56 @@ section{
 }
  /* end feature section */
 
- 
+ /* start host section */
+  section{
+    background: #1a0a2b;
+    margin-top: -30px;
+  }
+ .host-section{
+    
+    padding: 100px 20px;
+    margin: 0 200px; 
+ }
+ .host-container{
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+ .host-heading{
+    text-align: center;
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 40px;
+ }
+ .host-flex{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+ }
+ .host-image{
+     width: 200px;
+     height: 200px;
+     border-radius: 25px;
+ }
+ .host-content{
+    flex: 1;
+ }
+ .host-name{
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+ }
+ .host-description{
+      font-size: 16px;
+      margin-bottom: 15px;
+      color: #fff;
+      line-height: 25px;
+      max-width: 650px;
+ }
+ .social-icon{
+    display: flex;
+    gap: 10px;
+ }
+
+
+ /* end host section */

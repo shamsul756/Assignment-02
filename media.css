@@ -554,6 +554,38 @@ li p{
 }
 
 /* end feature section  */
+ /* start host section   */
+
+ .host-section{ 
+    padding: 5px 20px;
+    margin: 0 10px; 
+ }
+ .host-heading{
+    font-size: 35px;
+    margin-bottom: 20px;
+ }
+ .host-flex{
+    display: flex;
+    flex-direction: column; 
+ }
+
+ .host-name{
+    font-size: 20px;
+    
+    padding: 0 100px;
+    
+ }
+ .host-description{
+      font-size: 10px;
+      line-height: 18px;  
+ }
+ .social-icon{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+ }
+ /* end host section */
+
 
 }
 
