@@ -242,335 +242,13 @@ li p{
 
 
 
-@media screen and (max-width:576px){
-    /* nav design part  */
-    .hide{
-        display: inline;
-        margin: 15px 20px;
-    }
-       h1{
-        margin-left: 10px;
-    }
-    .menu ul{
-    display: flex;
-    gap: 32px;
-    display: none;
-}
-.arrow-move{
-    display: none;
-}
-.banner-section{
-   max-width: 1200px;
-   margin: 0 auto;
-   display: flex;
-   flex-direction: column;
-   gap: 180px;
-   padding: 50px 200px;
-}
-.banner-container{
-    text-align: center;
-}
-.banner-title {
-    display: block;
-    margin: 50px;
-    color: #fff;
-    font-size: 54px;
-    font-weight: bold;
-    
-}
-.banner-container p{
-    color: #fff;
-    margin-top: 16px;
-    font-size: 16px;
-    line-height: 25px;
-    
-}
-.flex-section ul{
-    display: flex;
-    color:#00FF88;
-    padding: 0;
-    margin: 0;
-    gap: 80px;
-    
-}
-li{
-   list-style: none;
-   font-weight: bold;
-   font-size: 50px;
-}
-li p{
-    font-weight: normal;
-    margin-top: 16px;
-    color: black;
-    font-size: 16px;
-    color: #fff;
-    margin-bottom: 120px;
-}
 
+/* start about section */
 
-/* complete nav desing */
-/* start hero design  */
-.upper-side{ 
-    width: 100%; 
-}
-
-.hero-circle{
-    width: 90px;
-    margin-top: -100px;
-  
-}
-.mic-icon {
-    position: absolute;
-    width: 40px;
-    top:-50px;
-    left:45px;
-    transform: translate(-50%, -50%);
-}
-.new{
-    top: -90px;
-    left: 80px;  
-}
-.down-side{
-    margin-top: -110px;
-}
-.down-side h2{
-    font-size: 20px;
-    margin-top: 10px;
-}
-.down-side p{
-    font-size: 10px;
-    margin-top: -5px;
-}
-
-.btn-group{
-    display: flex;
-    margin-top: -10px; 
-}
-.sound{
-    vertical-align:middle;
-    width: 20px;
-    height: auto;
-    padding: 1px;
-    margin: 2.5px;
-}
-
-.spotify-button{
-    background: linear-gradient(90deg,yellow, red, blue );
-    padding: 1px;
-    padding-bottom: -20px;
-    border-radius: 20px;
-    font-size: 13px;
-}
-.Subscribe-button{
-    padding: 2px;
-    border-radius: 20px;
-    font-size: 13px;
- /* } end hero design */
-}
-/* banner section start  */
-
-
-.banner-section{
+main{
    width: 100%;
-   margin: 0;
-   padding: 10px 0px;
+   background: #1a0a2b;
 }
-.banner-title {
-    margin: 20px;
-    font-size: 40px;   
-}
-.banner-container p{
-    color: #fff;
-    margin-top: 10px;
-    font-size: 10px;
-    line-height: 18px;
-    
-}
-.flex-section ul{
-    
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    
-}
-li{
-   font-size: 40px;
-}
-li p{
-    font-size: 14px;   
-}
-/* end banner-part */
-
-
-
-}
-
-
-
-@media screen and (min-width:576px) and (max-width:992px){
-    /* nav desing  */
-    h1{
-        margin-left: 35px;
-    }
-    .arrow-move{
-      background: linear-gradient(90deg,rgb(241, 4, 229), rgb(234, 255, 0), rgb(10, 246, 2));
-      padding: 4px 9px;
-      margin-right: 30px; } 
-      /* complete nav desing  */
-/*   hero section design */
-    
-.hero-circle{
-    width: 100px; 
-}
-.mic-icon {
-  
-    width: 45px;
-    top: -65px;
-}
-.new{
-    top: -125px;
-    left: 75px;   
-}
-.down-side{
-    margin-top: -200px;
-}
-.down-side h2{
-    font-size: 40px;
-    margin: 18px;
-    text-align: center;
-}
-
-.btn-group{
-    margin-top: 20px; 
-}
-
-.spotify-button{
-    margin-top: 1px;
-    font-size: 16px;
-}
-.sound{
-    justify-content:center ;
-    align-items: center;
-}
-.Subscribe-button{
-    padding: 5px;
-    border-radius: 25px;
-    margin-top: 1px;  
-    font-size: 16px;
-}   
-/* start banner section  */
-.banner-section{   
-   padding: 50px 20px;
-}
-.banner-container{
-    text-align: center;
-}
-.banner-title {
-    display: block;
-    font-size: 50px; 
-}
-.banner-container p{
-    font-size: 13px;
-    line-height: 20px;
-    
-}
-.flex-section ul{
-    gap: 50px;   
-}
-li{
-   font-size: 50px;
-   flex-wrap: wrap;
-  margin: 0 auto;
-}
-li p{
-    margin-top: 15px;
-    color: rgb(255, 255, 255);
-    font-size: 12px;
-
-    margin-bottom: 80px;
-}
-
-/* end banner section */
-
-}
-
-
-
-@media screen and (min-width:992px) and (max-width:1600px){
-        h1{
-        margin-left: 20px;
-    }  
-    .arrow-move{
-   
-      margin-right: 30px;
-      padding: 5px 6px;}
-      /* complete nav desing */
-      /* start hero section design  */
-.hero-circle{
-    width: 80%; 
-}
-.mic-icon {
-    width: 130px;
-    top:-10px;
-    left:170px;
-    transform: translate(-50%, -40%);
-}
-.new{
-    top: -150px;
-    left: 190px;  
-}
-.down-side{
-    margin-top: -142px;
-}
-.down-side h2{
-    font-size: 50px;
-    margin-top: -15%;
-}
-.down-side p{
-    font-size: 16px;
-    margin-top: -20px;
-    margin-bottom: 10px;
-    
-}
-.btn-group{
-    margin-top: -5px;
-}
-.spotify-button{
-    margin-top: 8px;
-}
-.Subscribe-button{
-    margin-top: 12px;
- /* } end hero design */
-}
-.banner-section{
-   max-width: 100%;
-   margin: -20px auto;
-   gap: 50px;
-}
-
-.banner-title {
-    font-size: 64px;   
-}
-.banner-container p{
-    margin-top: 18px;
-    font-size: 18px;   
-}
-.flex-section ul{
-    gap: 80px;
-    align-items: center;
-    justify-content: center;
-    
-}
-li{
-   font-size: 60px;
-}
-li p{
-    margin-top: 18px;
-    font-size: 18px;
-    margin-bottom: 40px;
-}
-/* end banner-section */
-
 .grid-section-background{
     max-width: 1200px;
     margin: 0 auto;
@@ -591,14 +269,22 @@ li p{
     
 
 }
+
 .grid-container .grid-audio{
     grid-template-columns: repeat(2, 1fr);
 }
 .grid-container{
-    background-color: #351165;
-    border: 1px solid #351161;
+
+   
     padding: 35px;
     text-align: left;
+}
+.grid-card{
+    background: #351165;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    box-sizing: border-box;
 }
 .grid-container img{
     width: 25px;
@@ -636,10 +322,8 @@ li p{
     grid-row: 3/4;
 }
 
+/* end about section */
 
 
 
 
-
-
-}
