@@ -529,79 +529,31 @@ li p{
 
  /* start feature section  */
 
-section{
-    background: #1a0a2b;
-}
+
 .feature-container{
     max-width: 1200px;
     margin: 0 auto;
 }
  .feature-container h2{
-    font-size: 54px;
-    font-weight: bold;
-    margin:0 200px;
-    text-align: center;
-    justify-content: center;
-    color: #fff;
-    padding: 40px;
+    font-size: 32px;
+    margin:0 2px;    
  }
- .flex{
-    
+ .flex{ 
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 25px 200px;
-    gap: 30px;
-    
-
-
+    flex-direction: column;
  }
 
 .feature-title{
-    font-size: 24px;
-    margin: 24px;
-    font-weight: bold;
-    color: #ffff;
+    font-size: 16px;
+    margin: 20px;
 }
 .subtitle{
-    font-size: 14px;
-    margin: 12px 24px;
-    color: #fff;
-    line-height: 24px;
-    
-}
-.clock-text{
-    font-size: 14px;
-    font-weight: 600;
-    
-}
-.feature-container{
-    background: #1a0a2b;
-   
-}
-.feature-flex{
-    background: #351165;
-    border-radius: 25px;
-    margin-bottom: 120px;
-}
-.clock-text img {
-    margin: 24px;
-    margin: 0 8px;
-    
-   
-}
-.clock-text{
-    display: flex;
-     gap: 8px;
-     padding: 10px;
-}
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-   
+    font-size: 10px;
+    margin: 2px 24px;
+    line-height: 15px;  
 }
 
-
+/* end feature section  */
 
 }
 
