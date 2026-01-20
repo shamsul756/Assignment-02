@@ -324,6 +324,75 @@ main{
 
 /* end about section */
 
+/* start feature section  */
+section{
+    background: #1a0a2b;
+}
+.feature-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ .feature-container h2{
+    font-size: 54px;
+    font-weight: bold;
+    margin:0 200px;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    padding: 40px;
+ }
+ .flex{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 200px;
+    gap: 30px;
+    
 
 
+ }
 
+.feature-title{
+    font-size: 24px;
+    margin: 24px;
+    font-weight: bold;
+    color: #ffff;
+}
+.subtitle{
+    font-size: 14px;
+    margin: 12px 24px;
+    color: #fff;
+    line-height: 24px;
+    
+}
+.clock-text{
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+.feature-container{
+    background: #1a0a2b;
+   
+}
+.feature-flex{
+    background: #351165;
+    border-radius: 25px;
+    margin-bottom: 120px;
+}
+.clock-text img {
+    margin: 24px;
+    margin: 0 8px;
+    
+   
+}
+.clock-text{
+    display: flex;
+     gap: 8px;
+     padding: 10px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}

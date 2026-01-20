@@ -114,6 +114,64 @@ li p{
 
 
 /* end about section */
+
+/* start feature section */
+
+iframe{
+    display: block;
+    width: 220px;
+    height: 170px;
+    margin: 0 auto;
+    padding: 10px 0;
+    border-radius: 15px;
+}
+ .feature-container h2{
+    font-size: 40px;
+    margin:0 20px;
+    padding: 20px;
+ }
+ .flex{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 10px;
+    gap: 30px;
+    
+
+
+ }
+
+.feature-title{
+    font-size: 14px;
+    margin: 18px;
+}
+.subtitle{
+    font-size: 10px;
+    margin: 8px 16px;
+    color: #fff;
+    line-height: 14px;
+    
+}
+.clock-text{
+    font-size: 10px;   
+}
+.feature-flex{
+    background: #351165;
+    border-radius: 25px;
+    margin-bottom: 120px;
+} 
+
+.clock-text{
+    display: flex;
+     gap: 8px;
+     padding: 10px;
+}
+
+
+
+
+
 }
 
 
@@ -277,7 +335,6 @@ li p{
 /* end banner-part */
 
 }
-
 
 
 @media screen and (max-width:576px){
@@ -469,6 +526,83 @@ li p{
 }
 
  /* end about section */
+
+ /* start feature section  */
+
+section{
+    background: #1a0a2b;
+}
+.feature-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ .feature-container h2{
+    font-size: 54px;
+    font-weight: bold;
+    margin:0 200px;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    padding: 40px;
+ }
+ .flex{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 200px;
+    gap: 30px;
+    
+
+
+ }
+
+.feature-title{
+    font-size: 24px;
+    margin: 24px;
+    font-weight: bold;
+    color: #ffff;
+}
+.subtitle{
+    font-size: 14px;
+    margin: 12px 24px;
+    color: #fff;
+    line-height: 24px;
+    
+}
+.clock-text{
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+.feature-container{
+    background: #1a0a2b;
+   
+}
+.feature-flex{
+    background: #351165;
+    border-radius: 25px;
+    margin-bottom: 120px;
+}
+.clock-text img {
+    margin: 24px;
+    margin: 0 8px;
+    
+   
+}
+.clock-text{
+    display: flex;
+     gap: 8px;
+     padding: 10px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+
+
+
 }
 
 
@@ -567,5 +701,15 @@ about section start  */
 }
 
 /* end about section */
+/* feature section start  */
 
-}
+.feature-flex{
+    border-radius: 25px;
+    padding: 10px;
+    flex: 200px;
+    max-width: 1200px;
+    gap: 10px;
+ }
+ /* end feature section part  */
+} 
+
