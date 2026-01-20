@@ -718,5 +718,36 @@ about section start  */
     gap: 10px;
  }
  /* end feature section part  */
+ /* start host section */
+
+
+
+ .host-heading{
+    font-size: 54px;
+    margin-bottom: 35px;
+ }
+ .host-flex{
+    display: flex;
+    align-items: left;
+    
+ }
+
+ 
+ .host-name{
+    font-size: 30px;
+   
+ }
+ .host-description{
+      font-size: 14px;
+      margin-bottom: 25px;
+      
+ }
+ .social-icon{
+    gap: 18px;
+ }
+
+/* end host section */
+
+
 } 
 
