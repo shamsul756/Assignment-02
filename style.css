@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Inter';
-    overflow: hidden;
+  
 }
 
 .background {
@@ -424,7 +424,7 @@ section {
 
 .host-section {
     padding: 100px 20px;
-    margin: 0 200px;
+    margin: -25px 200px;
 }
 
 .host-container {
